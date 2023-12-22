@@ -150,7 +150,7 @@ describe('App e2e', () => {
       });
     });
 
-    describe('Create bookmark', () => {
+    describe('Create the bookmark', () => {
       const dto: CreateBookmarkDto = {
         title: 'First Bookmark',
         link: 'https://www.youtube.com/watch?v=d6WC5n9G_sM',
