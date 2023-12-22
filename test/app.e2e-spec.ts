@@ -117,7 +117,7 @@ describe('App e2e', () => {
     });
 
     describe('Edit user', () => {
-      it('should edit user', () => {
+      it('should edit the user', () => {
         const dto: EditUserDto = {
           firstName: 'Vladimir',
           email: 'vlad@codewithvlad.com',
