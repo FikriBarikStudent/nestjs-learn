@@ -11,6 +11,17 @@ services:
       - 5432:5432
     networks:
       - nest-learning-network
+  test-db:
+    image: postgres:13
+    restart: always
+    environment:
+      POSTGRES_USER: barik
+      POSTGRES_PASSWORD: 123
+      POSTGRES_DB: nest-learning
+    ports:
+      - 5433:5432
+    networks:
+      - nest-learning-network
 networks:
   nest-learning-network:
     driver: bridge
