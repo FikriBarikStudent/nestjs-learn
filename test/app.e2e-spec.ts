@@ -80,7 +80,7 @@ describe('App e2e', () => {
           })
           .expectStatus(400);
       });
-      it('should throw if password empty', () => {
+      it('should throw signup if password empty', () => {
         return pactum
           .spec()
           .post('/auth/signin')
