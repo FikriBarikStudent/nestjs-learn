@@ -138,7 +138,7 @@ describe('App e2e', () => {
 
   describe('Bookmarks', () => {
     describe('Get empty bookmarks', () => {
-      it('should get bookmarks', () => {
+      it('should get the bookmarks', () => {
         return pactum
           .spec()
           .get('/bookmarks')
